@@ -1,0 +1,4 @@
+
+repositorio Carlos Gustavo Beltran Fuentealba = https://github.com/cbeltranfuent/individualesMod4.git
+
+en este repositorio encontrara los trabajos individuales 2 , 3 , 4 y 5.
