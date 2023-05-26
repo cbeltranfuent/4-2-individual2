@@ -1,5 +1,5 @@
 {
-  "name": "4-2-individual2",
+  "name": "market",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "vite": "^4.3.2"
-  },
-  "dependencies": {
-    "@vitejs/plugin-legacy": "^4.0.4"
   }
 }
