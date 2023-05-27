@@ -13,29 +13,29 @@ document.querySelector('#app').innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
+    <h1>Aqui usamos Vite!</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
+      Clickea en el logo de vite para más informacion
     </p>
   </div>
 `
 
 setupCounter(document.querySelector('#counter'))
 
-let articulo2 = new Articulos("Arena de gato","20000");
+let articulo2 = new Articulos("clavos","20000");
 console.log("============ A R T I C U L O ==============")
 
 console.log(articulo2)
  
-let proveedor2 = new Proveedores("gatoArena","gato@arena.cl",articulo2,"+5690303456");
+let proveedor2 = new Proveedores("ferrokabros","ferroinfo@kabros.cl",articulo2,"+56912345678");
 console.log("============ P R O V E E D O R ==============")
 
 console.log(proveedor2)
 
-console.log(proveedor2.getInfoProveedor())
+console.log(proveedor2.getInfoProveedores())
 
 const obtenImpuestos = (Proveedores) =>{
   let totalEmpresa = Proveedores.articulo.precio;
