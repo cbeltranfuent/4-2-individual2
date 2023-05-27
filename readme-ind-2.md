@@ -125,11 +125,14 @@ jobs:
 
 ## Crar la carpeta src
 
-Debe crear en la raiz del proyecto la carpeta `src` y la sub carpeta `js` y `css`. En la sub carpeta `js` debe estar el archivo `main.js` y En la sub carpeta `css` debe estar el archivo `style.css` , se envian los `*.svg` a la carpeta `src` y es necesario revisar todos los redireccionamientos para mejor preentacion y que todo este funcionando
+Debe crear en la raiz del proyecto la carpeta `src` y la sub carpeta `components`. En la sub carpeta `components` debe estar el archivo `counter.js y los .js que no sean del main ` y En la carpeta `src` debe estar el archivo `style.css` , se envian los `*.svg` a la carpeta `public`, esta a su vez se envia a  `src` y es necesario revisar todos los redireccionamientos para mejor preentacion y que todo este funcionando, importante mantener el div '<div id="app"></div>' en el html.
 ~~~
 	-src/
-        |js
-            |– main.js
-        |css
-            |– style.css
+        |components
+            |– counter.js
+        |public
+            |– javascript.svg
+            |– vite.svg
+        |– main.js
+        |– style.css
 ~~~
