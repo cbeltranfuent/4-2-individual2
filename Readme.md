@@ -33,6 +33,7 @@ Debe crear en la raiz del proyecto la carpeta `src` y la sub carpeta `components
         |– main.js
         |– style.css
 ~~~
+
 ## Configurar Vite ( vite.config.js )
 
 Crear en la raiz del proyecto el archivo `vite.config.js`
